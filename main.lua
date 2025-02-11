@@ -6268,6 +6268,56 @@ local ClosureBindings = {
             Hover = Color3.fromRGB(35, 35, 35),
             HoverChange = 0.04,
         }
+    end,
+	[55] = function()
+        local maui, script, require, getfenv, setfenv = ImportGlobals(55)
+        return {
+            Name = "Reroll Lua",
+            Accent = Color3.fromRGB(173, 216, 230),
+    
+            AcrylicMain = Color3.fromRGB(20, 20, 20),
+            AcrylicBorder = Color3.fromRGB(13, 13, 13),
+            AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(15, 15, 15)),
+            AcrylicNoise = 0.98,
+    
+            TitleBarLine = Color3.fromRGB(13, 13, 13),
+            Tab = Color3.fromRGB(173, 216, 230),
+    
+            Element = Color3.fromRGB(62, 62, 62),
+            ElementBorder = Color3.fromRGB(18, 18, 18),
+            InElementBorder = Color3.fromRGB(15, 15, 15),
+            ElementTransparency = 0.87,
+    
+            ToggleSlider = Color3.fromRGB(223, 223, 223),
+            ToggleToggled = Color3.fromRGB(40, 40, 40),
+    
+            SliderRail = Color3.fromRGB(173, 216, 230),
+    
+            DropdownFrame = Color3.fromRGB(180, 180, 180),
+            DropdownHolder = Color3.fromRGB(20, 20, 20),
+            DropdownBorder = Color3.fromRGB(15, 15, 15),
+            DropdownOption = Color3.fromRGB(57, 57, 57),
+    
+            Keybind = Color3.fromRGB(20, 20, 20),
+    
+            Input = Color3.fromRGB(20, 20, 20),
+            InputFocused = Color3.fromRGB(20, 10, 30),
+            InputIndicator = Color3.fromRGB(25, 25, 25),
+    
+            Dialog = Color3.fromRGB(24, 24, 24),
+            DialogHolder = Color3.fromRGB(27, 27, 27),
+            DialogHolderLine = Color3.fromRGB(20, 20, 20),
+            DialogButton = Color3.fromRGB(40, 40, 40),
+            DialogButtonBorder = Color3.fromRGB(27, 27, 27),
+            DialogBorder = Color3.fromRGB(172, 172, 172),
+            DialogInput = Color3.fromRGB(35, 35, 35),
+            DialogInputLine = Color3.fromRGB(13, 13, 13),
+    
+            Text = Color3.fromRGB(247, 227, 233),
+            SubText = Color3.fromRGB(170, 170, 170),
+            Hover = Color3.fromRGB(35, 35, 35),
+            HoverChange = 0.04,
+        }
     end
     
 } -- [RefId] = Closure
