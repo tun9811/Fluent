@@ -6269,10 +6269,10 @@ local ClosureBindings = {
             HoverChange = 0.04,
         }
     end,
-	[54] = function()
-        local maui, script, require, getfenv, setfenv = ImportGlobals(54)
+	[56] = function()
+        local maui, script, require, getfenv, setfenv = ImportGlobals(56)
         return {
-            Name = "Lua Theme",
+            Name = "Lua Tdheme",
             Accent = Color3.fromRGB(0, 122, 255),
     
             AcrylicMain = Color3.fromRGB(20, 20, 20),
