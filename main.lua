@@ -6280,15 +6280,15 @@ local ClosureBindings = {
         local maui, script, require, getfenv, setfenv = ImportGlobals(55)
         return {
             Name = "Reroll Lua",
-            Accent = Color3.fromRGB(173, 216, 230),
+            Accent = Color3.fromRGB(30, 144, 255),
     
-            AcrylicMain = Color3.fromRGB(0, 0, 255),
+            AcrylicMain = Color3.fromRGB(30, 144, 255),
             AcrylicBorder = Color3.fromRGB(13, 13, 13),
             AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(15, 15, 15)),
             AcrylicNoise = 0.98,
     
             TitleBarLine = Color3.fromRGB(13, 13, 13),
-            Tab = Color3.fromRGB(0, 0, 255),
+            Tab = Color3.fromRGB(30, 144, 255),
     
             Element = Color3.fromRGB(62, 62, 62),
             ElementBorder = Color3.fromRGB(18, 18, 18),
@@ -6298,7 +6298,7 @@ local ClosureBindings = {
             ToggleSlider = Color3.fromRGB(223, 223, 223),
             ToggleToggled = Color3.fromRGB(40, 40, 40),
     
-            SliderRail = Color3.fromRGB(0, 0, 255),
+            SliderRail = Color3.fromRGB(40, 144, 255),
     
             DropdownFrame = Color3.fromRGB(180, 180, 180),
             DropdownHolder = Color3.fromRGB(20, 20, 20),
