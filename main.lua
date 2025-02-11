@@ -6284,7 +6284,7 @@ local ClosureBindings = {
     
             AcrylicMain = Color3.fromRGB(30, 144, 255),
             AcrylicBorder = Color3.fromRGB(13, 13, 13),
-            AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(15, 15, 15)),
+            AcrylicGradient = ColorSequence.new(Color3.fromRGB(30, 144, 255), Color3.fromRGB(15, 15, 15)),
             AcrylicNoise = 0.98,
     
             TitleBarLine = Color3.fromRGB(13, 13, 13),
@@ -6301,19 +6301,19 @@ local ClosureBindings = {
             SliderRail = Color3.fromRGB(40, 144, 255),
     
             DropdownFrame = Color3.fromRGB(180, 180, 180),
-            DropdownHolder = Color3.fromRGB(20, 20, 20),
+            DropdownHolder = Color3.fromRGB(30, 144, 255),
             DropdownBorder = Color3.fromRGB(15, 15, 15),
             DropdownOption = Color3.fromRGB(57, 57, 57),
     
-            Keybind = Color3.fromRGB(20, 20, 20),
+            Keybind = Color3.fromRGB(30, 144, 255),
     
-            Input = Color3.fromRGB(20, 20, 20),
+            Input = Color3.fromRGB(30, 144, 255),
             InputFocused = Color3.fromRGB(20, 10, 30),
             InputIndicator = Color3.fromRGB(25, 25, 25),
     
             Dialog = Color3.fromRGB(24, 24, 24),
             DialogHolder = Color3.fromRGB(27, 27, 27),
-            DialogHolderLine = Color3.fromRGB(20, 20, 20),
+            DialogHolderLine = Color3.fromRGB(30, 144, 255),
             DialogButton = Color3.fromRGB(40, 40, 40),
             DialogButtonBorder = Color3.fromRGB(27, 27, 27),
             DialogBorder = Color3.fromRGB(172, 172, 172),
