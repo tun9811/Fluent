@@ -6269,6 +6269,7 @@ local ClosureBindings = {
             HoverChange = 0.04,
         }
     end
+    
 } -- [RefId] = Closure
 
 -- Set up from data
