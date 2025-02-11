@@ -6368,7 +6368,7 @@ local ClosureBindings = {
             Hover = Color3.fromRGB(35, 35, 35),
             HoverChange = 0.04,
         }
-    end,
+    end
 } -- [RefId] = Closure
 
 -- Set up from data
