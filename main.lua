@@ -6301,8 +6301,8 @@ local ClosureBindings = {
             SliderRail = Color3.fromRGB(40, 144, 255),
     
             DropdownFrame = Color3.fromRGB(30, 144, 255),
-            DropdownHolder = Color3.fromRGB(20, 20, 20),
-            DropdownBorder = Color3.fromRGB(30, 144, 255),
+            DropdownHolder = Color3.fromRGB(20, 20, 255),
+            DropdownBorder = Color3.fromRGB(15, 15, 15),
             DropdownOption = Color3.fromRGB(30, 144, 255),
     
             Keybind = Color3.fromRGB(20, 20, 20),
