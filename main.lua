@@ -275,6 +275,13 @@ local ObjectTree = {
 						}
 					},
 					{
+						55,
+						"ModuleScript",
+						{
+							"Reroll"
+						}
+					},
+					{
 						48,
 						"ModuleScript",
 						{
@@ -6269,7 +6276,7 @@ local ClosureBindings = {
             HoverChange = 0.04,
         }
     end,
-	    [55] = function()
+	[55] = function()
         local maui, script, require, getfenv, setfenv = ImportGlobals(55)
         return {
             Name = "Reroll Theme",
