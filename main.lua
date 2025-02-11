@@ -6302,7 +6302,7 @@ local ClosureBindings = {
     
             DropdownFrame = Color3.fromRGB(30, 144, 255),
             DropdownHolder = Color3.fromRGB(20, 20, 20),
-            DropdownBorder = Color3.fromRGB(15, 15, 15),
+            DropdownBorder = Color3.fromRGB(30, 144, 255),
             DropdownOption = Color3.fromRGB(30, 144, 255),
     
             Keybind = Color3.fromRGB(20, 20, 20),
