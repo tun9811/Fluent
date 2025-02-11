@@ -6313,7 +6313,7 @@ local ClosureBindings = {
     
             Dialog = Color3.fromRGB(24, 24, 24),
             DialogHolder = Color3.fromRGB(27, 27, 27),
-            DialogHolderLine = Color3.fromRGB(30, 144, 255),
+            DialogHolderLine = Color3.fromRGB(20, 20, 20),
             DialogButton = Color3.fromRGB(40, 40, 40),
             DialogButtonBorder = Color3.fromRGB(27, 27, 27),
             DialogBorder = Color3.fromRGB(172, 172, 172),
