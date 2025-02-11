@@ -6219,6 +6219,7 @@ local ClosureBindings = {
 		HoverChange = 0.04,
 		}
 	end,
+--[[
     [54] = function()
         local maui, script, require, getfenv, setfenv = ImportGlobals(54)
         return {
@@ -6269,8 +6270,9 @@ local ClosureBindings = {
             HoverChange = 0.04,
         }
     end,
-	[55] = function()
-        local maui, script, require, getfenv, setfenv = ImportGlobals(55)
+--]]
+	[54] = function()
+        local maui, script, require, getfenv, setfenv = ImportGlobals(54)
         return {
             Name = "Reroll Theme",
             Accent = Color3.fromRGB(0, 144, 255),
