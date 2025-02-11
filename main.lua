@@ -6284,7 +6284,7 @@ local ClosureBindings = {
     
             AcrylicMain = Color3.fromRGB(30, 144, 255),
             AcrylicBorder = Color3.fromRGB(13, 13, 13),
-            AcrylicGradient = ColorSequence.new(Color3.fromRGB(30, 144, 255), Color3.fromRGB(15, 15, 15)),
+            AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(15, 15, 15)),
             AcrylicNoise = 0.98,
     
             TitleBarLine = Color3.fromRGB(13, 13, 13),
@@ -6305,9 +6305,9 @@ local ClosureBindings = {
             DropdownBorder = Color3.fromRGB(15, 15, 15),
             DropdownOption = Color3.fromRGB(57, 57, 57),
     
-            Keybind = Color3.fromRGB(30, 144, 255),
+            Keybind = Color3.fromRGB(20, 20, 20),
     
-            Input = Color3.fromRGB(30, 144, 255),
+            Input = Color3.fromRGB(20, 20, 20),
             InputFocused = Color3.fromRGB(20, 10, 30),
             InputIndicator = Color3.fromRGB(25, 25, 25),
     
