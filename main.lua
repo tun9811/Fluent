@@ -6275,7 +6275,8 @@ local ClosureBindings = {
             Hover = Color3.fromRGB(35, 35, 35),
             HoverChange = 0.04,
         }
-    end,
+    end
+	--[[]
 	[55] = function()
         local maui, script, require, getfenv, setfenv = ImportGlobals(55)
         return {
@@ -6326,6 +6327,7 @@ local ClosureBindings = {
             HoverChange = 0.04,
         }
     end
+	--]]
     
 } -- [RefId] = Closure
 
