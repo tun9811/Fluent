@@ -275,13 +275,6 @@ local ObjectTree = {
 						}
 					},
 					{
-						55,
-						"ModuleScript",
-						{
-							"Reroll"
-						}
-					},
-					{
 						48,
 						"ModuleScript",
 						{
@@ -6276,7 +6269,7 @@ local ClosureBindings = {
             HoverChange = 0.04,
         }
     end
-
+    
 } -- [RefId] = Closure
 
 -- Set up from data
