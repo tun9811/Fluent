@@ -6294,7 +6294,7 @@ local ClosureBindings = {
 		ElementTransparency = 0.87,
 
 		ToggleSlider = Color3.fromRGB(97, 255, 97),
-		ToggleToggled = Color3.fromRGB(97, 255, 97),
+		ToggleToggled = Color3.fromRGB(0, 130, 0),
 
 		SliderRail = Color3.fromRGB(97, 255, 97),
 
