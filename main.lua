@@ -6278,34 +6278,34 @@ local ClosureBindings = {
     end,
 	[55] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(55)return {
 		Name = "Dynamic Amethyst",
-		Accent = Color3.fromRGB(97, 255, 97),
+		Accent = Color3.fromRGB(146, 255, 146),
 
-		AcrylicMain = Color3.fromRGB(20, 20, 20),
-		AcrylicBorder = Color3.fromRGB(97, 255, 97),
+		AcrylicMain = Color3.fromRGB(0, 130, 0),
+		AcrylicBorder = Color3.fromRGB(146, 255, 146),
 		AcrylicGradient = ColorSequence.new(Color3.fromRGB(97, 255, 97), Color3.fromRGB(97, 255, 97)),
 		AcrylicNoise = 0.92,
 
-		TitleBarLine = Color3.fromRGB(97, 255, 97),
-		Tab = Color3.fromRGB(97, 255, 97),
+		TitleBarLine = Color3.fromRGB(146, 255, 146),
+		Tab = Color3.fromRGB(146, 255, 146),
 
-		Element = Color3.fromRGB(97, 255, 97),
+		Element = Color3.fromRGB(146, 255, 146),
 		ElementBorder = Color3.fromRGB(60, 50, 70),
 		InElementBorder = Color3.fromRGB(100, 90, 110),
 		ElementTransparency = 0.87,
 
-		ToggleSlider = Color3.fromRGB(97, 255, 97),
+		ToggleSlider = Color3.fromRGB(146, 255, 146),
 		ToggleToggled = Color3.fromRGB(0, 130, 0),
 
-		SliderRail = Color3.fromRGB(97, 255, 97),
+		SliderRail = Color3.fromRGB(146, 255, 146),
 
 		DropdownFrame = Color3.fromRGB(170, 160, 200),
 		DropdownHolder = Color3.fromRGB(0, 130, 0),
 		DropdownBorder = Color3.fromRGB(50, 40, 65),
-		DropdownOption = Color3.fromRGB(97, 255, 97),
+		DropdownOption = Color3.fromRGB(146, 255, 146),
 
-		Keybind = Color3.fromRGB(97, 255, 97),
+		Keybind = Color3.fromRGB(146, 255, 146),
 
-		Input = Color3.fromRGB(97, 255, 97),
+		Input = Color3.fromRGB(146, 255, 146),
 		InputFocused = Color3.fromRGB(20, 10, 30),
 		InputIndicator = Color3.fromRGB(170, 150, 190),
 
@@ -6320,7 +6320,7 @@ local ClosureBindings = {
 
 		Text = Color3.fromRGB(255, 255, 255),
 		SubText = Color3.fromRGB(255, 255, 255),
-		Hover = Color3.fromRGB(97, 255, 97),
+		Hover = Color3.fromRGB(146, 255, 146),
 		HoverChange = 0.04,
 		}
 	end
