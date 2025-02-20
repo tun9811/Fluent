@@ -4553,6 +4553,7 @@ local ClosureBindings = {
 				["lucide-droplet"] = "rbxassetid://10723344432",
 				["lucide-droplets"] = "rbxassetid://10734883356",
 				["lucide-drumstick"] = "rbxassetid://10723344737",
+				["lucide-Dragondojo"] = "rbxassetid://97876712161195",
 				["lucide-edit"] = "rbxassetid://10734883598",
 				["lucide-edit-2"] = "rbxassetid://10723344885",
 				["lucide-edit-3"] = "rbxassetid://10723345088",
