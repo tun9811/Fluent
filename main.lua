@@ -4071,7 +4071,7 @@ local ClosureBindings = {
 				},
 			})
 
-			--[[
+			
 						local SliderDisplay = New("TextLabel", {
 				FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
 				Text = "Value",
@@ -4087,7 +4087,7 @@ local ClosureBindings = {
 					TextColor3 = "SubText",
 				},
 			})
-			]]
+			
 
 
 
