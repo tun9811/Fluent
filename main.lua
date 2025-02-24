@@ -4013,7 +4013,7 @@ local ClosureBindings = {
 				Value = nil,
 				Min = Config.Min,
 				Max = Config.Max,
-				Rounding = Config.1,
+				Rounding = 1,
 				Callback = Config.Callback or function(Value) end,
 				Type = "Slider",
 			}
@@ -4071,7 +4071,7 @@ local ClosureBindings = {
 				},
 			})
 
-			
+			--[[
 						local SliderDisplay = New("TextLabel", {
 				FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json"),
 				Text = "Value",
@@ -4087,7 +4087,7 @@ local ClosureBindings = {
 					TextColor3 = "SubText",
 				},
 			})
-			
+			]]
 
 
 
@@ -4180,7 +4180,6 @@ local ClosureBindings = {
 
 		return Element
 	end,
-
 
 	[27] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(27)local TweenService = game:GetService("TweenService")
 		local Root = script.Parent.Parent
