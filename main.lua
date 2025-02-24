@@ -4007,6 +4007,7 @@ local ClosureBindings = {
 			assert(Config.Min, "Slider - Missing minimum value.")
 			assert(Config.Max, "Slider - Missing maximum value.")
 			assert(Config.Rounding, "Slider - Missing rounding value.")
+                        Config.Rounding = 1
 
 			local Slider = {
 				Value = nil,
