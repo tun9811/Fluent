@@ -3989,7 +3989,6 @@ local ClosureBindings = {
 
 		return Paragraph
 	end,
-
 [26] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(26)local UserInputService = game:GetService("UserInputService")
 local Root = script.Parent.Parent
 local Creator = require(Root.Creator)
@@ -4095,12 +4094,12 @@ function Element:New(Idx, Config)
 	Creator.AddSignal(UserInputService.InputChanged, function(Input)  
 		if Dragging and ( Input.UserInputType == Enum.UserInputType.MouseMovement or Input.UserInputType == Enum.UserInputType.Touch ) then  
 			local SizeScale = math.clamp((Input.Position.X - SliderRail.AbsolutePosition.X) / SliderRail.AbsoluteSize.X, 0, 1)  
-			Slider:SetValue(math.floor(Slider.Min + ((Slider.Max - Slider.Min) * SizeScale) + 0.5))  
+			Slider:SetValue(math.round(Slider.Min + ((Slider.Max - Slider.Min) * SizeScale)))  
 		end  
 	end)  
 
 	function Slider:SetValue(Value)  
-		self.Value = math.clamp(math.floor(Value + 0.5), Slider.Min, Slider.Max)  
+		self.Value = math.clamp(math.round(Value), Slider.Min, Slider.Max)  
 		SliderDot.Position = UDim2.new((self.Value - Slider.Min) / (Slider.Max - Slider.Min), -7, 0.5, 0)  
 		SliderFill.Size = UDim2.fromScale((self.Value - Slider.Min) / (Slider.Max - Slider.Min), 1)  
 		SliderDisplay.Text = tostring(self.Value)  
@@ -4117,6 +4116,8 @@ end
 return Element
 
 end,
+
+
 
 
 						
