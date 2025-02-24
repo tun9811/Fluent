@@ -78,7 +78,6 @@ local InterfaceManager = {} do
 
         InterfaceTheme:SetValue(Settings.Theme)
 	
-		if Library.UseAcrylic then
 			section:AddToggle("AcrylicToggle", {
 				Title = "Acrylic",
 				Description = "The blurred background requires graphic quality 8+",
@@ -89,7 +88,7 @@ local InterfaceManager = {} do
                     InterfaceManager:SaveSettings()
 				end
 			})
-		end
+		
 	
 		section:AddToggle("TransparentToggle", {
 			Title = "Transparency",
