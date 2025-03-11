@@ -4156,11 +4156,12 @@ local ClosureBindings = {
 				Func(Slider.Value)
 			end
 
-function Slider:SetValue(Value)
-	self.Value = math.floor(math.clamp(Value, Slider.Min, Slider.Max) + 0.5)
-	SliderDot.Position = UDim2.new((self.Value - Slider.Min) / (Slider.Max - Slider.Min), -7, 0.5, 0)
-	SliderFill.Size = UDim2.fromScale((self.Value - Slider.Min) / (Slider.Max - Slider.Min), 1)
-	SliderDisplay.Text = tostring(self.Value)
+			function Slider:SetValue(Value)
+				self.Value = Library:Round(math.clamp(Value, Slider.Min, Slider.Max), Slider.Rounding)
+				SliderDot.Position = UDim2.new((self.Value - Slider.Min) / (Slider.Max - Slider.Min), -7, 0.5, 0)
+				SliderFill.Size = UDim2.fromScale((self.Value - Slider.Min) / (Slider.Max - Slider.Min), 1)
+				SliderDisplay.Text = tostring(self.Value)
+
 
 	Library:SafeCallback(Slider.Callback, self.Value)
 	Library:SafeCallback(Slider.Changed, self.Value)
