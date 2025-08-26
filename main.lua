@@ -2997,7 +2997,7 @@ Components.Window = (function()
 		})
 
 		local TabFrame = New("Frame", {
-			Size = UDim2.new(0, Window.TabWidth, 1, -131 + -OFFSETY), -- []-66
+			Size = UDim2.new(0, Window.TabWidth, 1, 131 + -OFFSETY), -- []-66
 			Position = UDim2.new(0, 12, 0, -70 + OFFSETY), --54
 			BackgroundTransparency = 1,
 			ClipsDescendants = true,
