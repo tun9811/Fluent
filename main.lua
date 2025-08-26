@@ -2821,10 +2821,11 @@ Components.TitleBar = function(Config)
 		Size = UDim2.new(1, 0, 0, 42),
 		BackgroundTransparency = 1,
 		Parent = Config.Parent,
+        Position = UDim2.new(0, 0, 0, 0),
 	}, {
 		New("Frame", {
 			Size = UDim2.new(1, -16, 1, 0),
-			Position = UDim2.new(0, 16, 0, 0),
+			Position = UDim2.new(0, 50, 0, 0),
 			BackgroundTransparency = 1,
 		}, {
 			New("UIListLayout", {
@@ -2920,6 +2921,7 @@ Components.Window = (function()
 			Size = Config.Size,
 			CurrentPos = 0,
 			TabWidth = 0,
+            SizeIcon = 0,
 			Position = UDim2.fromOffset(
 				Camera.ViewportSize.X / 2 - Config.Size.X.Offset / 2,
 				Camera.ViewportSize.Y / 2 - Config.Size.Y.Offset / 2
@@ -2932,6 +2934,7 @@ Components.Window = (function()
 
 		Window.AcrylicPaint = Acrylic.AcrylicPaint()
 		Window.TabWidth = Config.TabWidth
+		Window.SizeIcon = Config.SizeIcon
 
 		local Selector = New("Frame", {
 			Size = UDim2.fromOffset(4, 0),
@@ -2971,8 +2974,8 @@ Components.Window = (function()
 
 		local Icon = New("TextButton", {
 			BackgroundTransparency = 1,
-			Size = UDim2.new(0, Window.TabWidth, 0, Window.TabWidth),
-			Position = UDim2.new(0, 12, 0, (Window.TabWidth/4)- 20),
+			Size = UDim2.new(0, 60, 0, 60),
+			Position = UDim2.new(0, -4, 0, (Window.TabWidth/4)- 50),
 			BorderSizePixel = 0
 		}, {
 			New("UIPadding", {
@@ -2982,7 +2985,7 @@ Components.Window = (function()
 				PaddingTop = UDim.new(0, 2),
 			}),
 			New("ImageLabel", {
-				Image = "rbxassetid://85237244405724",
+				Image = "rbxassetid://105608302686093",
 				Size = UDim2.new(1, 0, 1, 0),
 				BackgroundTransparency = 1,
 			}, {
@@ -2994,8 +2997,8 @@ Components.Window = (function()
 		})
 
 		local TabFrame = New("Frame", {
-			Size = UDim2.new(0, Window.TabWidth, 1, -66 + -OFFSETY), -- []-66
-			Position = UDim2.new(0, 12, 0, 54 + OFFSETY), --54
+			Size = UDim2.new(0, Window.TabWidth, 1, -131 + -OFFSETY), -- []-66
+			Position = UDim2.new(0, 12, 0, -70 + OFFSETY), --54
 			BackgroundTransparency = 1,
 			ClipsDescendants = true,
 		}, {
@@ -6945,7 +6948,7 @@ function Library:CreateWindow(Config)
 	-- 			PaddingTop = UDim.new(0, 2),
 	-- 		}),
 	-- 		New("ImageLabel", {
-	-- 			Image = Config.MinimizerIcon or "rbxassetid://85237244405724",
+	-- 			Image = Config.MinimizerIcon or "rbxassetid://105608302686093",
 	-- 			Size = UDim2.new(1, 0, 1, 0),
 	-- 			BackgroundTransparency = 1,
 	-- 		}, {
