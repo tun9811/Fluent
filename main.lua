@@ -2974,8 +2974,8 @@ Components.Window = (function()
 
 		local Icon = New("TextButton", {
 			BackgroundTransparency = 1,
-			Size = UDim2.new(0, 60, 0, 60),
-			Position = UDim2.new(0, -4, 0, (Window.TabWidth/4)- 50),
+			Size = UDim2.new(0, 55, 0, 55),
+			Position = UDim2.new(0, -4, 0, (Window.TabWidth/4)- 48),
 			BorderSizePixel = 0
 		}, {
 			New("UIPadding", {
@@ -2997,7 +2997,7 @@ Components.Window = (function()
 		})
 
 		local TabFrame = New("Frame", {
-			Size = UDim2.new(0, Window.TabWidth, 1, 131 + -OFFSETY), -- []-66
+			Size = UDim2.new(0, Window.TabWidth, 1, 58 + -OFFSETY), -- []-66
 			Position = UDim2.new(0, 12, 0, -70 + OFFSETY), --54
 			BackgroundTransparency = 1,
 			ClipsDescendants = true,
