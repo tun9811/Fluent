@@ -20,7 +20,7 @@ local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
 
 local Themes = {
 	Names = {
-		"Amethyst Maru",
+		"Emerald Noir",
 		"Crimson Dark",
 		"Ember",
 		"Neon Crimson",		
@@ -128,53 +128,53 @@ local Themes = {
 		Hover = Color3.fromRGB(149, 149, 149),
 		HoverChange = 0.04
 	},
-	["Amethyst Maru"] = {
-		Name = "Amethyst Maru",
-		Accent = Color3.fromHex("#1e6dbf"), -- Dark blue accent
+    ["Emerald Noir"] = {
+        Name = "Emerald Noir",
+        Accent = Color3.fromHex("#00cc66"), -- เขียวสด Accent
 
-		AcrylicMain = Color3.fromHex("#001a33"), -- Dark blue background
-		AcrylicBorder = Color3.fromHex("#004080"), -- Slightly lighter border
-		AcrylicGradient = ColorSequence.new(Color3.fromHex("#001a33"), Color3.fromHex("#001a33")),
-		AcrylicNoise = 0.92,
+        AcrylicMain = Color3.fromHex("#0d0d0d"), -- พื้นหลังดำเข้ม
+        AcrylicBorder = Color3.fromHex("#1a1a1a"), -- เส้นขอบดำเทา
+        AcrylicGradient = ColorSequence.new(Color3.fromHex("#0d0d0d"), Color3.fromHex("#0d0d0d")),
+        AcrylicNoise = 0.92,
 
-		TitleBarLine = Color3.fromHex("#004080"),
-		Tab = Color3.fromHex("#a1c4e6"), -- Light blue text
+        TitleBarLine = Color3.fromHex("#00cc66"), -- เส้นบาร์สีเขียว
+        Tab = Color3.fromHex("#66ffb2"), -- ข้อความเขียวอ่อน
 
-		Element = Color3.fromHex("#00264d"),
-		ElementBorder = Color3.fromHex("#004080"),
-		InElementBorder = Color3.fromHex("#1e6dbf"),
-		ElementTransparency = 0.85,
+        Element = Color3.fromHex("#141414"), -- ดำเทา
+        ElementBorder = Color3.fromHex("#00cc66"), -- เขียวสด
+        InElementBorder = Color3.fromHex("#00994d"), -- เขียวเข้ม
+        ElementTransparency = 0.85,
 
-		ToggleSlider = Color3.fromHex("#0055a3"),
-		ToggleToggled = Color3.fromHex("#001a33"),
+        ToggleSlider = Color3.fromHex("#00994d"), -- สไลเดอร์เขียวเข้ม
+        ToggleToggled = Color3.fromHex("#0d0d0d"), -- ดำเข้ม
 
-		SliderRail = Color3.fromHex("#0055a3"),
+        SliderRail = Color3.fromHex("#00cc66"),
 
-		DropdownFrame = Color3.fromHex("#00264d"),
-		DropdownHolder = Color3.fromHex("#00264d"),
-		DropdownBorder = Color3.fromHex("#004080"),
-		DropdownOption = Color3.fromHex("#a1c4e6"),
+        DropdownFrame = Color3.fromHex("#141414"),
+        DropdownHolder = Color3.fromHex("#141414"),
+        DropdownBorder = Color3.fromHex("#00cc66"),
+        DropdownOption = Color3.fromHex("#66ffb2"),
 
-		Keybind = Color3.fromHex("#00264d"),
+        Keybind = Color3.fromHex("#141414"),
 
-		Input = Color3.fromHex("#001933"),
-		InputFocused = Color3.fromHex("#001933"),
-		InputIndicator = Color3.fromHex("#7fa1bf"),
+        Input = Color3.fromHex("#0d0d0d"),
+        InputFocused = Color3.fromHex("#0d0d0d"),
+        InputIndicator = Color3.fromHex("#33cc80"), -- เขียวกลาง
 
-		Dialog = Color3.fromHex("#00264d"),
-		DialogHolder = Color3.fromHex("#001a33"),
-		DialogHolderLine = Color3.fromHex("#004080"),
-		DialogButton = Color3.fromHex("#00264d"),
-		DialogButtonBorder = Color3.fromHex("#004080"),
-		DialogBorder = Color3.fromHex("#004080"),
-		DialogInput = Color3.fromHex("#001933"),
-		DialogInputLine = Color3.fromHex("#1e6dbf"),
+        Dialog = Color3.fromHex("#141414"),
+        DialogHolder = Color3.fromHex("#0d0d0d"),
+        DialogHolderLine = Color3.fromHex("#00cc66"),
+        DialogButton = Color3.fromHex("#141414"),
+        DialogButtonBorder = Color3.fromHex("#00cc66"),
+        DialogBorder = Color3.fromHex("#00cc66"),
+        DialogInput = Color3.fromHex("#0d0d0d"),
+        DialogInputLine = Color3.fromHex("#00994d"),
 
-		Text = Color3.fromHex("#a1c4e6"), -- Light blue text for readability
-		SubText = Color3.fromHex("#7fa1bf"),
-		Hover = Color3.fromHex("#004080"),
-		HoverChange = 0.1
-	},
+        Text = Color3.fromHex("#66ffb2"), -- ข้อความเขียวอ่อนอ่านง่าย
+        SubText = Color3.fromHex("#33cc80"), -- เขียวกลาง
+        Hover = Color3.fromHex("#00994d"), -- Hover เขียวเข้ม
+        HoverChange = 0.1
+    },
 	["Amethyst Dark"] = {
 		Name = "Amethyst Dark",
 		Accent = Color3.fromHex("#b133ff"),
