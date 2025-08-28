@@ -130,50 +130,50 @@ local Themes = {
 	},
     ["Emerald Noir"] = {
         Name = "Emerald Noir",
-        Accent = Color3.fromHex("#00cc66"), -- เขียวสด Accent
+		Accent = Color3.fromRGB(99, 255, 65),
 
-        AcrylicMain = Color3.fromHex("#0d0d0d"), -- พื้นหลังดำเข้ม
-        AcrylicBorder = Color3.fromHex("#1a1a1a"), -- เส้นขอบดำเทา
-        AcrylicGradient = ColorSequence.new(Color3.fromHex("#0d0d0d"), Color3.fromHex("#0d0d0d")),
-        AcrylicNoise = 0.92,
+		AcrylicMain = Color3.fromRGB(40, 40, 40),
+		AcrylicBorder = Color3.fromRGB(90, 90, 90),
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(40, 40, 40), Color3.fromRGB(40, 40, 40)),
+		AcrylicNoise = 0.9,
 
-        TitleBarLine = Color3.fromHex("#00cc66"), -- เส้นบาร์สีเขียว
-        Tab = Color3.fromHex("#66ffb2"), -- ข้อความเขียวอ่อน
+		TitleBarLine = Color3.fromRGB(75, 75, 75),
+		Tab = Color3.fromRGB(120, 120, 120),
 
-        Element = Color3.fromHex("#141414"), -- ดำเทา
-        ElementBorder = Color3.fromHex("#00cc66"), -- เขียวสด
-        InElementBorder = Color3.fromHex("#00994d"), -- เขียวเข้ม
-        ElementTransparency = 0.85,
+		Element = Color3.fromRGB(40, 40, 40),
+		ElementBorder = Color3.fromRGB(35, 35, 35),
+		InElementBorder = Color3.fromRGB(90, 90, 90),
+		ElementTransparency = 0.87,
 
-        ToggleSlider = Color3.fromHex("#00994d"), -- สไลเดอร์เขียวเข้ม
-        ToggleToggled = Color3.fromHex("#0d0d0d"), -- ดำเข้ม
+		ToggleSlider = Color3.fromRGB(20, 20, 20),
+		ToggleToggled = Color3.fromRGB(0, 0, 0),
 
-        SliderRail = Color3.fromHex("#00cc66"),
+		SliderRail = Color3.fromRGB(120, 120, 120),
 
-        DropdownFrame = Color3.fromHex("#141414"),
-        DropdownHolder = Color3.fromHex("#141414"),
-        DropdownBorder = Color3.fromHex("#00cc66"),
-        DropdownOption = Color3.fromHex("#66ffb2"),
+		DropdownFrame = Color3.fromRGB(160, 160, 160),
+		DropdownHolder = Color3.fromRGB(45, 45, 45),
+		DropdownBorder = Color3.fromRGB(35, 35, 35),
+		DropdownOption = Color3.fromRGB(120, 120, 120),
 
-        Keybind = Color3.fromHex("#141414"),
+		Keybind = Color3.fromRGB(120, 120, 120),
 
-        Input = Color3.fromHex("#0d0d0d"),
-        InputFocused = Color3.fromHex("#0d0d0d"),
-        InputIndicator = Color3.fromHex("#33cc80"), -- เขียวกลาง
+		Input = Color3.fromRGB(160, 160, 160),
+		InputFocused = Color3.fromRGB(10, 10, 10),
+		InputIndicator = Color3.fromRGB(150, 150, 150),
 
-        Dialog = Color3.fromHex("#141414"),
-        DialogHolder = Color3.fromHex("#0d0d0d"),
-        DialogHolderLine = Color3.fromHex("#00cc66"),
-        DialogButton = Color3.fromHex("#141414"),
-        DialogButtonBorder = Color3.fromHex("#00cc66"),
-        DialogBorder = Color3.fromHex("#00cc66"),
-        DialogInput = Color3.fromHex("#0d0d0d"),
-        DialogInputLine = Color3.fromHex("#00994d"),
+		Dialog = Color3.fromRGB(45, 45, 45),
+		DialogHolder = Color3.fromRGB(35, 35, 35),
+		DialogHolderLine = Color3.fromRGB(30, 30, 30),
+		DialogButton = Color3.fromRGB(45, 45, 45),
+		DialogButtonBorder = Color3.fromRGB(80, 80, 80),
+		DialogBorder = Color3.fromRGB(70, 70, 70),
+		DialogInput = Color3.fromRGB(55, 55, 55),
+		DialogInputLine = Color3.fromRGB(160, 160, 160),
 
-        Text = Color3.fromHex("#66ffb2"), -- ข้อความเขียวอ่อนอ่านง่าย
-        SubText = Color3.fromHex("#33cc80"), -- เขียวกลาง
-        Hover = Color3.fromHex("#00994d"), -- Hover เขียวเข้ม
-        HoverChange = 0.1
+		Text = Color3.fromRGB(240, 240, 240),
+		SubText = Color3.fromRGB(170, 170, 170),
+		Hover = Color3.fromRGB(120, 120, 120),
+		HoverChange = 0.07,
     },
 	["Amethyst Dark"] = {
 		Name = "Amethyst Dark",
